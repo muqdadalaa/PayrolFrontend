@@ -1,0 +1,140 @@
+<div class="table-responsive">
+<table class="table table-bordered table-hover">
+    <thead>
+        <th>EmpIdNo</th>
+        <th>EmpNo</th>
+        <th>EmpstdNo</th>
+        <th>EmpHealthNo</th>
+        <th>EmpStatNo</th>
+        <th>EmpPhonNo</th>
+        <th>EmpEmail</th>
+        <th>EmpVoterno</th>
+        <th>EmpSupplyCardNo</th>
+        <th>EmpApOrNo</th>
+        <th>EmpApOrDt</th>
+        <th>EmpBirthCou</th>
+        <th>EmpBirthGov</th>
+        <th>EmpMinCo</th>
+        <th>EmpUnCo</th>
+        <th>EmpSubUntNo</th>
+        <th>EmpSubUntGov</th>
+        <th>EmpFullName</th>
+        <th>EmpFirNam</th>
+        <th>EmpSecNam</th>
+        <th>EmpTherNam</th>
+        <th>EmpForthNam</th>
+        <th>EmpAllakab</th>
+        <th>EmpDateofbirth</th>
+        <th>EmpMomNam</th>
+        <th>EmpFirMomNam</th>
+        <th>EmpCecMomNam</th>
+        <th>EmpTherMomNam</th>
+        <th>EmpGender</th>
+        <th>EmpSalRec</th>
+        <th>EmpPerTyp</th>
+        <th>EmpPepGrp</th>
+        <th>EmpAsgStu </th>
+        <th> EmpNumDyMrt </th>
+        <th>EmpDngHotPlc</th>
+        <th>EmpMarStu </th>
+        <th> EmpHelthInsEmp</th>
+        <th>EmpStaff</th>
+        <th> EmpStaffRes</th>
+        <th>EmpMedicalBen </th>
+        <th>EmpRadiBen </th>
+        <th>EmpItem</th>
+        <th>EmpEmployer</th>
+        <th>EmpUpgrTb</th>
+        <th>EmpUpgrYe</th>
+        <th>EmpEmployerTyp</th>
+        <th>EmpAppoSt</th>
+        <th>EmpWorSt</th>
+        <th>EmpNati</th>
+        <th> EmpNaDt</th>
+        <th>EmpReligion</th>
+        <th> EmpNaNo</th>
+        <th> EmpBocCo</th>
+        <th>EmpLstUpdDt</th>
+        <th> EmpNatIssProv</th>
+        <th>EmpStartDt</th>
+        <th>EmpLthServYear</th>
+        <th>EmpLthServMonth</th>
+        <th>EmpServAd</th>
+        <th>EmpServAdYear </th>
+        <th> EmpServAdMonth</th>
+        <th>EmpServOutSalryYy</th>
+        <th>EmpServOutSalryMm</th>
+        <th>EmpRetNo</th>
+        <th></th>
+    </thead>
+    <tbody>
+      <tr (click)="fillData(item)" *ngFor="let item of service.payrols">
+        <td>{{ item.empIdNo }}</td>
+        <td>{{ item.empNo }}</td>
+        <td>{{ item.empstdNo }}</td>
+        <td>{{ item.empHealthNo }}</td>
+        <td>{{ item.empStatNo }}</td>
+        <td>{{ item.empPhonNo }}</td>
+        <td>{{ item.empEmail }}</td>
+        <td>{{ item.empVoterno }}</td>
+        <td>{{ item.empSupplyCardNo }}</td>
+        <td>{{ item.empApOrNo }}</td>
+        <td>{{ item.empApOrDt }}</td>
+        <td>{{ item.empBirthCou }}</td>
+        <td>{{ item.empBirthGov }}</td>
+        <td>{{ item.empMinCo }}</td>
+        <td>{{ item.empUnCo }}</td>
+        <td>{{ item.empSubUntNo }}</td>
+        <td>{{ item.empSubUntGov }}</td>
+        <td>{{ item.empFullName }}</td>
+        <td>{{ item.empFirNam }}</td>
+        <td>{{ item.empSecNam }}</td>
+        <td>{{ item.empTherNam }}</td>
+        <td>{{ item.empForthNam }}</td>
+        <td>{{ item.empAllakab }}</td>
+        <td>{{ item.empDateofbirth }}</td>
+        <td>{{ item.empMomNam }}</td>
+        <td>{{ item.empFirMomNam }}</td>
+        <td>{{ item.empCecMomNam }}</td>
+        <td>{{ item.empTherMomNam }}</td>
+        <td>{{ item.empGender }}</td>
+        <td>{{ item.empSalRec }}</td>
+        <td>{{ item.empPerTyp }}</td>
+        <td>{{ item.empPepGrp }}</td>
+        <td>{{ item.empAsgStu }}</td>
+        <td>{{ item.empNumDyMrt }}</td>
+        <td>{{ item.empDngHotPlc }}</td>
+        <td>{{ item.empMarStu }}</td>
+        <td>{{ item.empHelthInsEmp }}</td>
+        <td>{{ item.empStaff }}</td>
+        <td>{{ item.empStaffRes }}</td>
+        <td>{{ item.empMedicalBen }}</td>
+        <td>{{ item.empRadiBen }}</td>
+        <td>{{ item.empItem }}</td>
+        <td>{{ item.empEmployer }}</td>
+        <td>{{ item.empUpgrTb }}</td>
+        <td>{{ item.empUpgrYe }}</td>
+        <td>{{ item.empEmployerTyp }}</td>
+        <td>{{ item.empAppoSt }}</td>
+        <td>{{ item.empWorSt }}</td>
+        <td>{{ item.empNati }}</td>
+        <td>{{ item.empNaDt }}</td>
+        <td>{{ item.empReligion }}</td>
+        <td>{{ item.empNaNo }}</td>
+        <td>{{ item.empBocCo }}</td>
+        <td>{{ item.empLstUpdDt }}</td>
+        <td>{{ item.empNatIssProv }}</td>
+        <td>{{ item.empStartDt }}</td>
+        <td>{{ item.empLthServYear }}</td>
+        <td>{{ item.empLthServMonth }}</td>
+        <td>{{ item.empServAd }}</td>
+        <td>{{ item.empServAdYear }}</td>
+        <td>{{ item.empServAdMonth }}</td>
+        <td>{{ item.empServOutSalryYy }}</td>
+        <td>{{ item.empServOutSalryMm }}</td>
+        <td>{{ item.empRetNo }}</td>
+        <td (click)="delete(item.empId)"><span class="btn btn-danger">Delete</span></td>
+      </tr>
+    </tbody>
+    </table>
+  </div>
